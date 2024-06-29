@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+
+#container1 {
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    /* default property for row starting from left  */
+    flex-direction: row;
+}
+
+#container2 {
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    /* for reverse starting from right  */
+    flex-direction: row-reverse;
+}
+
+#container3 {
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    /* for column starting from top  */
+    flex-direction: column;
+}
+
+#container4 {
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    /* for column reverse starting from bottom */
+    flex-direction: column-reverse;
+}
+
+#container5 {
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    /* for same space divided equally between the content  */
+    justify-content: space-between;
+}
+
+#container6 {
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    /* for same space divided around the content  same for column*/
+    justify-content: space-around;
+}
+
+#container7 {
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    /* for start content from start same for column */
+    justify-content: flex-start;
+}
+
+#container8 {
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    /* for content move to end   same for column*/
+    justify-content: flex-end;
+}
+
+#container9 {
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    /* for content move to end  same for column */
+    justify-content: center;
+}
+
+#container10 {
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    /* for wrap overflowing content for row same for column */
+    flex-wrap: wrap;
+}
+
+#container11 {
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    /* for reverse wrap overflowing content for row same for column */
+    flex-wrap: wrap-reverse;
+}
+
+#container12 {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    /* for  wrap overflowing content for column  */
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: lightcoral;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 32px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 12px;
+}
